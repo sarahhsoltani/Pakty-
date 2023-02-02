@@ -1,0 +1,21 @@
+.slider-content {
+    position: absolute;
+    display: grid;
+    top: 0px;
+    height: 100%;
+    max-height: 600px !important;
+    width: 100%;
+    align-items: center !important;
+    padding: 50px;
+    color: #fff !important;
+}
+
+.slider-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.slider-text {
+    font-size: 24px;
+    font-weight: 600;
+}

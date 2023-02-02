@@ -1,0 +1,29 @@
+.slider-content {
+    position: absolute;
+    display: grid;
+    top: 0px;
+    height: 100%;
+    max-height: 600px !important;
+    width: 100%;
+    align-items: center !important;
+    padding: 0px 0px 151px 138px;
+    color: #fff !important;
+}
+
+.slider-title {
+ font-family: 'Montserrat';
+font-weight: 700;
+font-size: 30px;
+line-height: 100%;
+color: #0A3556;
+
+}
+
+.slider-text {
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 23px;
+line-height: 130%;
+color: #0A3556;
+opacity: 0.8;
+}

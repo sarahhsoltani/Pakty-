@@ -1,0 +1,9 @@
+.rounded-top.ant-image-img {
+    border-radius: 24px 24px 0px 0px !important;
+    width: 100% !important;
+  }
+
+  .ant-image {
+    display: block !important;
+
+  }

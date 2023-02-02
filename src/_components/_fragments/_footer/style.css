@@ -1,0 +1,19 @@
+.custom-footer {
+    padding: 100px !important;
+    background-color: #0A3556 !important;
+    color: #fff !important;
+}
+
+.footer-item.ant-list-item {
+    color: #fff !important;
+    padding: 0px 12px 6px 24px;
+}
+
+.footer-item.ant-list-item.footer-item-title {
+    padding: 0px 24px 12px 24px;
+}
+
+.newsletter.ant-input-affix-wrapper-sm {
+    padding:  auto !important;
+    border-radius: 9px;
+}

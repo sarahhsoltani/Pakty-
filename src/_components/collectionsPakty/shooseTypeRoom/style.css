@@ -1,0 +1,106 @@
+:root {
+	--hue: 223;
+	--white: hsl(0,0%,100%);
+	--lt-gray: hsl(var(--hue),10%,95%);
+	--primary0: hsl(var(--hue),90%,95%);
+	--primary1: hsl(var(--hue),90%,90%);
+	--primary3: hsl(var(--hue),90%,50%);
+	--primary4: hsl(var(--hue),90%,30%);
+	--primary5: hsl(var(--hue),90%,10%);
+	--trans-dur: 0.3s;
+	font-size: calc(16px + (32 - 16) * (100vw - 320px) / (1280 - 320));
+}
+.shape{
+width: 60px;
+height: 56px;
+background: #FFFFFF;
+box-shadow: 4px 6px 40px rgba(0, 0, 0, 0.05);
+width: 26px;
+
+}
+.box-items-one{
+background: #E7FCF8;
+border: 2px solid #11F4BD;
+box-shadow: 4px 6px 40px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+padding: 14px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #0A3556;
+}
+.box-items-two{
+padding: 14px;
+background: #FFFFFF;
+box-shadow: 4px 6px 40px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #0A3556;
+display: flex;
+justify-content: space-between;
+padding: 14px 6px;
+}
+.img-rooms{
+width: 24px;
+}
+.img-bedrooms{
+    padding: 14px 16px;
+}
+.inline{
+padding: 14px;
+background: #FFFFFF;
+box-shadow: 4px 6px 40px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+padding: 14px 13px;
+width: 44px;
+text-align: center;
+}
+
+.para-shape{
+padding: 14px;
+background: #FFFFFF;
+box-shadow: 4px 6px 40px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+width: 45px;
+}
+.badget{
+font-weight: 500;
+color: #112B3C;
+font-family: 'Montserrat';
+font-size: 20px;
+line-height: 95.6%;
+}
+.filter-price{
+ background: #FFFFFF;
+box-shadow: 4px 6px 40px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+width: 348px;
+padding: 11px 16px;
+}
+/* ---------------------------range filter-------------- */
+
+  
+  .range {
+    width: 318px;
+    height: 10px;
+    -webkit-appearance: none;
+    background: #B3BFCA !important;
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgb(211, 200, 200);
+  }
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #97DA0A;
+    cursor: pointer;
+    border: 4px solid rgb(160, 157, 157);
+    box-shadow: -407px 0 0 400px #97DA0A;
+  }
+  
+

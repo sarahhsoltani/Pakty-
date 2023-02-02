@@ -1,0 +1,450 @@
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+  }
+  
+  @media (min-width: 1025px) {
+    .h-custom-2 {
+      height: 100%;
+    }
+  }
+  .divider:after,
+  .divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  }
+  .welcome-back{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: #0A3556;
+    
+      } 
+  .welcome-signUp{
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 40px;
+color: #0A3556;
+
+  }  
+  .para-welcome{
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+color: #0A3556;
+opacity: 0.8;
+  }
+  .button-login{
+    padding: 12px 212px;
+    gap: 8px;
+    outline: none;
+    border: none;
+    background: #11F4BD;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #0A3556;
+  }
+  .button-signup{
+    padding: 12px 179px;
+    gap: 8px;
+    outline: none;
+    border: none;
+    background: #11F4BD;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #0A3556;
+  }
+.button-reset{
+  padding: 12px 168px !important;
+}
+  .button-login:hover{
+    background: #11F4BD;
+  }
+
+.forgot-password{
+font-family: 'Montserrat';
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #0A3556;
+  }
+
+.new-account{
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #0A3556;
+  }
+
+.sign-for-free{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #0A3556;
+}
+.form-check-label{
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+color: #0A3556;
+opacity: 0.8;
+}
+.login-google{
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+color: #0A3556;
+opacity: 0.8;
+padding: 12px 143px;
+border: 1px solid #6C92B0;
+}
+::placeholder{
+font-size: 14px;
+ color: #8095A6;
+font-weight: 500;
+opacity: 0.8;
+
+}
+
+ input:focus ~  ::placeholder
+{
+  top: -20px !important;
+  left: 0 !important;
+  color: #03e9f4 !important;
+  font-size: 12px !important;
+} 
+.exception-form{
+    border-right: none !important;
+}
+.input-group-text{
+    background-color: transparent !important;
+    cursor: pointer;
+}
+.input-group>.form-control, .input-group>.form-select {
+    border-right: none !important;
+}
+.input-signUp{
+    font-size: 13px !important;
+}
+.input-signIn{
+    font-size: 13px !important;
+}
+.para-welcome-signUp{
+  text-align: left !important;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 0px !important;
+}   
+.para-welcome-reset{
+  text-align: left !important;
+  width: 412px;
+} 
+.welcome-signUp{
+  text-align: left !important;
+}
+.welcome-reset{
+  width: 404px ;
+  font-size: 32px ;
+}
+.sign-for-free:hover {
+  color: #0A3556;
+}
+.button-signup:hover {
+  background: #11F4BD;
+  color: #0A3556;
+}
+.button-login:hover {
+  color: #0A3556;
+}
+.forgot-password:hover {
+  color: #0A3556;
+}
+.icon-show{
+ font-size: 22px;
+}
+/* ---------------------------------Responsive Design-------------------------- */
+@media (max-width: 1366px) and (min-width: 1200px) {
+  .button-login {
+    padding: 12px 182px;
+  }
+  .login-google{
+    padding: 12px 134px
+  }
+  .button-reset {
+    padding: 12px 133px !important;
+}
+}   
+@media (max-width: 1200px) and (min-width: 1024px) {
+  
+  .para-welcome-reset {
+    width: 382px !important;
+    font-size: 17px !important;
+}
+.para-welcome {
+  text-align: left;
+}
+.welcome-reset {
+  width: 355px !important;
+  font-size: 28px !important;
+}
+.button-reset {
+  padding: 12px 100px !important;
+}
+.button-login {
+    padding: 12px 146px;
+}
+.login-google {
+  padding: 12px 102px;
+}
+
+.para-welcome-signUp {
+  text-align: left !important;
+}
+
+.para-welcome {
+  font-size: 17px;
+}
+.welcome-signUp,.welcome-back {
+  font-size: 28px;
+}
+
+}
+
+@media (max-width: 1024px) and (min-width: 992px) {
+  .button-login {
+    padding: 12px 143px;
+  }
+  .login-google{
+    padding: 12px 95px;
+  }
+  .logo-pakty{
+    margin-bottom: 0rem!important;
+  }
+  .para-welcome {
+    text-align: left;
+    font-size: 17px !important;
+   }
+   .button-signup {
+    padding: 12px 140px;
+   }
+.welcome-back {
+    font-size: 28px;
+}
+.welcome-signUp {
+
+  font-size: 28px;
+}
+.welcome-reset {
+  width: 356px;
+}
+.para-welcome-reset {
+  width: 380px;
+}
+.button-reset {
+  padding: 12px 96px !important;
+}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .welcome-signUp {
+    font-size: 28px;
+}
+
+.para-welcome {
+    font-size: 17px;
+}
+.button-signup {
+  padding: 12px 298px;
+}
+.button-login {
+  padding: 12px 300px;
+}
+.login-google {
+  padding: 12px 255px;
+}
+.welcome-back {
+  font-size: 28px;
+}
+.welcome-reset {
+  width: 533px;
+}
+.para-welcome-reset {
+  width: 470px;
+}
+.button-reset {
+  padding: 12px 256px !important;
+}
+}
+@media (max-width: 991px)  {
+   .bloc-img{
+    display: none !important;
+   }
+
+}
+@media (max-width: 767px) and (min-width: 576px) {
+  .para-welcome-reset {
+    width: 471px;
+}
+.welcome-reset {
+  width: 538px;
+  font-size: 28px;
+}
+.button-signup {
+  padding: 12px 211px;
+}
+.para-welcome {
+  font-size: 17px;
+}
+.button-reset {
+  padding: 12px 166px !important;
+}
+.welcome-back {
+  font-size: 28px;
+}
+.welcome-signUp {
+  font-size: 28px;
+}
+.button-login {
+  padding: 12px 211px;
+}
+ }
+ @media (max-width: 576px) {
+  .welcome-reset {
+    font-size: 28px;
+    font-size: 14px;
+}
+.welcome-back {
+  font-size: 28px;
+}
+.welcome-signUp {
+  font-size: 26px;
+}
+.button-signup {
+  padding: 12px 228px;
+  font-size: 14px;
+}
+.button-reset {
+  padding: 12px 184px !important;
+  font-size: 14px;
+}
+.para-welcome-reset {
+    text-align: left !important;
+    width: 471px;
+}
+.button-login {
+  padding: 12px 231px;
+}
+.login-google {
+  padding: 12px 182px;
+  font-size: 14px;
+
+}
+.para-welcome {
+    font-size: 17px;
+    text-align: left;
+}
+
+ }
+ /* @media (max-width: 535px) and (min-width: 320px) {
+  .button-login {
+    padding: 12px 211px;
+  }
+  .button-reset {
+    padding: 12px 164px !important;
+}
+.button-signup {
+  padding: 12px 208px;
+}
+.welcome-back {
+  font-size: 28px;
+}
+.para-welcome {
+  font-size: 17px;
+}
+.welcome-signUp {
+  font-size: 28px;
+}
+ } */
+ @media (max-width: 375px)  {
+  .welcome-back {
+    font-size: 25px;
+  }
+  .para-welcome {
+    font-size: 15px;
+    text-align: left;
+  }
+  .button-login {
+    padding: 12px 129px !important;
+    font-size: 14px;
+}
+.login-google {
+  padding: 12px 83px !important;
+  font-size: 14px;
+}
+.button-reset{
+    padding: 12px 83px !important;
+    font-size: 14px;
+}
+}
+@media (max-width: 414px)  {
+  .button-login {
+    padding: 12px 151px;
+}
+.login-google {
+  padding: 12px 101px;
+}
+.button-reset {
+  padding: 12px 103px !important;
+}
+
+}
+@media (max-width: 390px)  {
+  .welcome-back {
+    font-size: 25px;
+}
+.para-welcome {
+  font-size: 15px;
+  text-align: left;
+}
+.button-login {
+  padding: 12px 137px !important;
+  font-size: 13px;
+}
+
+.button-reset{
+  padding: 12px 90px !important;
+  font-size: 13px;
+}
+.login-google {
+  padding: 12px 88px !important; 
+  font-size: 13px;
+}
+}
+@media (max-width: 393px)  {
+  .button-login {
+    padding: 12px 140px;
+  }
+  .button-reset {
+    padding: 12px 92px !important;
+}
+  .login-google {
+    padding: 12px 92px;
+}
+}

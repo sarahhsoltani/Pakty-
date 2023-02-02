@@ -1,0 +1,38 @@
+.item-card {
+    border-radius: 24px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.image {
+    padding: 10px;
+}
+
+.card-body {
+    padding: 10px;
+    color: #0A3556;
+}
+
+.card-body div {
+    padding: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 14px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #97DA0A !important;
+}

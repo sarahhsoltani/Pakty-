@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+code {
+  font-family: 'Montserrat';
+}
+
+.pakty-btn-primary {
+  text-transform: uppercase !important;
+  background-color: #11F4BD;
+  border-color: #11F4BD;
+  color: #0A3556;
+  font-weight: 600;
+}
+
+.ant-btn {
+  padding: auto 18px !important;
+}
+
+.header-custom {
+  background-color: transparent !important;
+  color: white
+}
+
+.rounded.ant-image-img {
+  border-radius: 24px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pt-0 {
+  padding-top: 0px !important;
+}
+
+.ant-menu-item-selected {
+  color: white !important;
+}
+
+.ant-menu-item-active::after,
+.ant-menu-item-selected::after {
+  border-bottom-color: white !important;
+}
+
+.normal .ant-menu-item-selected {
+  color: #000 !important;
+}
+
+.normal .ant-menu-item-active::after,
+.normal .ant-menu-item-selected::after {
+  border-bottom-color: #000 !important;
+}
+
+.ant-menu-horizontal {
+  border-bottom-color: transparent !important;
+}
+
+.custom-header .ant-menu-horizontal {
+  border-bottom-color: transparent !important;
+}
+
+header.ant-layout-header.custom-header {
+  background-color: transparent !important;
+}
+
+.normal.ant-layout-header {
+  background-color: #fff !important;
+}
+
+.text-green {
+  color: #11F4BD !important;
+}
