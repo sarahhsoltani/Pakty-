@@ -12,10 +12,10 @@ function Speener() {
      <div className="d-flex justify-content-around align-items-center">
      
 
-     <ClipLoader color="#36d7b7" 
+     <ClipLoader color="#11F4BD" 
      height='95px'
      border-radius= '100%'
-     border-width= '4px'
+     border-width= '6px'
      
      />
     </div>
